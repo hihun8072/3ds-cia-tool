@@ -31,7 +31,7 @@ Windows용 `HackingToolkit9DS`의 워크플로우에서 영감을 받아 macOS(�
 | **`3dstool`** | CCI / CXI / ExeFS / RomFS 분해 및 빌드 | [dnasdw/3dstool](https://github.com/dnasdw/3dstool/releases) |
 | **`ctrtool`** | CIA / 3DS 헤더 및 메타데이터 파싱 | [3DSGuy/Project_CTR](https://github.com/3DSGuy/Project_CTR/releases) |
 | **`makerom`** | 빌드된 파티션을 `.cia` 파일로 패키징 | [3DSGuy/Project_CTR](https://github.com/3DSGuy/Project_CTR/releases) |
-| **`cia-unix`** | 암호화된 CIA 복호화 및 `.3ds` 변환 | 사용 중인 `cia-unix` 릴리스 빌드 |
+| **`cia-unix`** | 암호화된 CIA 복호화 및 `.3ds` 변환 | [shijimasoft/cia-unix](https://github.com/shijimasoft/cia-unix/releases/) |
 
 ### 복호화 키 파일 (암호화된 CIA 처리 시)
 암호화된 타이틀을 복호화하려면 `cia-unix`가 참조할 수 있도록 스크립트와 같은 폴더에 아래 키 파일을 배치해야 합니다. (메인 화면의 `Keys:` 항목에서 인식 여부를 확인할 수 있습니다.)

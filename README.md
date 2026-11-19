@@ -31,7 +31,7 @@ This repository does **not** bundle external binaries or decryption keys. Place 
 | **`3dstool`** | Extract and rebuild CCI / CXI / ExeFS / RomFS | [dnasdw/3dstool](https://github.com/dnasdw/3dstool/releases) |
 | **`ctrtool`** | Parse CIA / 3DS headers and metadata | [3DSGuy/Project_CTR](https://github.com/3DSGuy/Project_CTR/releases) |
 | **`makerom`** | Package rebuilt partitions into a `.cia` file | [3DSGuy/Project_CTR](https://github.com/3DSGuy/Project_CTR/releases) |
-| **`cia-unix`** | Decrypt encrypted `.cia` files and convert to `.3ds` | Your preferred `cia-unix` release build |
+| **`cia-unix`** | Decrypt encrypted `.cia` files and convert to `.3ds` | [shijimasoft/cia-unix](https://github.com/shijimasoft/cia-unix/releases/) |
 
 ### Decryption Key Files (For Encrypted CIAs)
 To decrypt encrypted titles, place the key files required by `cia-unix` in the script root directory (detection status is displayed under `Keys:` on the main screen):
