@@ -1,6 +1,6 @@
 # 3DS CIA Tool (`3ds-cia-tool.sh`)
 
-> **English** | **[한국어 (Korean)](README_KO.md)**
+> **English** | **[한국어 (Korean)](README_KR.md)**
 
 An interactive Bash utility for **macOS** and **Linux** to **extract, rebuild, batch-convert (`.cia` → `.3ds`), and inspect** Nintendo 3DS `.cia` files from the terminal.
 
@@ -35,7 +35,7 @@ This repository does **not** bundle external binaries or decryption keys. Place 
 
 ### Decryption Key Files (For Encrypted CIAs)
 To decrypt encrypted titles, place the key files required by `cia-unix` in the script root directory (detection status is displayed under `Keys:` on the main screen):
-- `ext_kry.txt` (or `ext_key.txt`)
+- `ext_key.txt` (or `ext_key.txt`)
 - Optional/additional files as needed: `seeddb.bin`, `boot9.bin`, `aes_keys.txt`, `encseed.bin`
 
 ---
@@ -51,7 +51,7 @@ Default working directories are created automatically on first run:
 ├── ctrtool              # [User-provided] External binary
 ├── makerom              # [User-provided] External binary
 ├── cia-unix             # [User-provided] External binary
-├── ext_kry.txt          # [User-provided] Decryption key file
+├── ext_key.txt          # [User-provided] Decryption key file
 ├── Input/               # Default input directory for source .cia files
 ├── Extracted/           # Working directory for extracted headers, ExeFS, and RomFS
 ├── Output/              # Default output directory for rebuilt .cia / converted .3ds files
@@ -68,7 +68,7 @@ Default working directories are created automatically on first run:
    git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
    cd <your-repo-name>
    ```
-   Copy `3dstool`, `ctrtool`, `makerom`, `cia-unix`, and your key file (`ext_kry.txt`) into this directory.
+   Copy `3dstool`, `ctrtool`, `makerom`, `cia-unix`, and your key file (`ext_key.txt`) into this directory.
 
 2. **Grant execute permissions**
    ```bash
@@ -124,4 +124,5 @@ Options:
 - **Credits**:
   - Initially inspired by and ported from [HackingToolkit9DS](https://github.com/Asia81/HackingToolkit9DS) by Asia81.
   - Powered by external CLI tools: `3dstool` (dnasdw), `ctrtool` & `makerom` (3DSGuy), and `cia-unix`.
+  - **AI Assistance**: Developed, refactored, and documented with assistance from **Gemini** and **DeepSeek**.
 - **License**: Distributed under the [MIT License](LICENSE).

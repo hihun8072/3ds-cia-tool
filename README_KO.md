@@ -35,7 +35,7 @@ Windows용 `HackingToolkit9DS`의 워크플로우에서 영감을 받아 macOS(�
 
 ### 복호화 키 파일 (암호화된 CIA 처리 시)
 암호화된 타이틀을 복호화하려면 `cia-unix`가 참조할 수 있도록 스크립트와 같은 폴더에 아래 키 파일을 배치해야 합니다. (메인 화면의 `Keys:` 항목에서 인식 여부를 확인할 수 있습니다.)
-- `ext_kry.txt` (또는 `ext_key.txt`)
+- `ext_key.txt` (또는 `ext_key.txt`)
 - 필요에 따라 `seeddb.bin`, `boot9.bin`, `aes_keys.txt`, `encseed.bin` 등
 
 ---
@@ -51,7 +51,7 @@ Windows용 `HackingToolkit9DS`의 워크플로우에서 영감을 받아 macOS(�
 ├── ctrtool              # [사용자 준비] 외부 바이너리
 ├── makerom              # [사용자 준비] 외부 바이너리
 ├── cia-unix             # [사용자 준비] 외부 바이너리
-├── ext_kry.txt          # [사용자 준비] 복호화 키 파일
+├── ext_key.txt          # [사용자 준비] 복호화 키 파일
 ├── Input/               # 원본 .cia 파일을 넣는 기본 입력 폴더
 ├── Extracted/           # 분해된 헤더, ExeFS, RomFS 등이 저장되는 작업 폴더
 ├── Output/              # 재구성된 .cia 또는 변환된 .3ds 결과물 출력 폴더
@@ -68,7 +68,7 @@ Windows용 `HackingToolkit9DS`의 워크플로우에서 영감을 받아 macOS(�
    git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
    cd <your-repo-name>
    ```
-   위에서 준비한 `3dstool`, `ctrtool`, `makerom`, `cia-unix` 바이너리와 키 파일(`ext_kry.txt`)을 이 폴더에 넣습니다.
+   위에서 준비한 `3dstool`, `ctrtool`, `makerom`, `cia-unix` 바이너리와 키 파일(`ext_key.txt`)을 이 폴더에 넣습니다.
 
 2. **실행 권한 부여**
    ```bash
@@ -124,4 +124,5 @@ Windows용 `HackingToolkit9DS`의 워크플로우에서 영감을 받아 macOS(�
 - **Credits**:
   - Initially inspired by and ported from [HackingToolkit9DS](https://github.com/Asia81/HackingToolkit9DS) by Asia81.
   - Powered by external CLI tools: `3dstool` (dnasdw), `ctrtool` & `makerom` (3DSGuy), and `cia-unix`.
+  - **AI Assistance**: **Gemini** 및 **DeepSeek**의 도움을 받아 개발·리팩토링 및 문서화되었습니다.
 - **License**: [MIT License](LICENSE)에 따라 배포됩니다.
