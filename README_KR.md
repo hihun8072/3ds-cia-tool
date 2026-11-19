@@ -35,7 +35,7 @@ Windows용 `HackingToolkit9DS`의 워크플로우에서 영감을 받아 macOS(�
 
 ### 복호화 키 파일 (암호화된 CIA 처리 시)
 암호화된 타이틀을 복호화하려면 `cia-unix`가 참조할 수 있도록 스크립트와 같은 폴더에 아래 키 파일을 배치해야 합니다. (메인 화면의 `Keys:` 항목에서 인식 여부를 확인할 수 있습니다.)
-- `ext_key.txt` (또는 `ext_key.txt`)
+- `ext_key.txt`
 - 필요에 따라 `seeddb.bin`, `boot9.bin`, `aes_keys.txt`, `encseed.bin` 등
 
 ---

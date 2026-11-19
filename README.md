@@ -35,7 +35,7 @@ This repository does **not** bundle external binaries or decryption keys. Place 
 
 ### Decryption Key Files (For Encrypted CIAs)
 To decrypt encrypted titles, place the key files required by `cia-unix` in the script root directory (detection status is displayed under `Keys:` on the main screen):
-- `ext_key.txt` (or `ext_key.txt`)
+- `ext_key.txt`
 - Optional/additional files as needed: `seeddb.bin`, `boot9.bin`, `aes_keys.txt`, `encseed.bin`
 
 ---
